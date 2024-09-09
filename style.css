@@ -37,9 +37,8 @@
 
 /* BEST SELLER */
 .bestseller-content{
-    width: 60%; 
+    gap: 30px;
     display: flex; 
-    flex-direction: column;
     
 }
 

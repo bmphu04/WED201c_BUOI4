@@ -1,0 +1,179 @@
+.smarthome{
+    display: flex;
+    justify-content:space-between;
+    background-color: #e4eaf4;
+}
+.smarthome-title{
+   
+}
+.smarthome-title h2{
+    text-align: right;
+    margin-right: 25px;
+    font-size: 30px;
+}
+
+.smarthome-img img{
+    display: block;
+    width: 500px;
+}
+.smarthome-line{
+    width: 100px;
+    height: 3px;
+    background-color: #ff1313;
+    margin-left: 680px;
+}
+
+
+
+
+.bestseller-saleoff {
+    width: 90%;
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    
+    
+}
+
+/* BEST SELLER */
+.bestseller-title {
+    width: 60%; 
+    display: flex; 
+    flex-direction: column;
+    
+}
+
+.bestseller-title h1 {
+    color: teal;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.bestseller-content,
+.bestseller {
+    width: 45%; 
+    text-align: center;
+ 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: aqua;
+}
+
+.bestseller-content img,
+.besseller img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px; 
+}
+
+.bestseller-content h3, 
+.bestseller h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 18px;
+    color: red;
+    margin: 10px 0; 
+}
+
+.price, 
+.buy{
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/*  SALE OFF 20% */
+.saleoff {
+    width: 35%; 
+    text-align: center;
+    justify-content:left;
+    
+}
+
+.saleoff h1 {
+    color: teal;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.saleoff table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.saleoff th, .saleoff td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.saleoff th {
+    background-color: #20b2aa;
+    color: white;
+    font-size: 16px;
+}
+
+.salepff td {
+    font-size: 14px;
+    color: #333;
+}
+
+.saleoff tr:hover {
+    background-color: #f1f1f1;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* consultation */
+.Consultation {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.infor label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.infor input{
+    width: 200px;
+    height: 20px;
+}
+
+.infor input.name{
+   
+}
+
+.infor input.phone{
+    
+    
+}
+
+.infor input.address{
+    
+}
+
+/* Footer */
+.footer {
+    background-color: #00bfa5;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}

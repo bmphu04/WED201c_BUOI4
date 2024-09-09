@@ -36,14 +36,14 @@
 }
 
 /* BEST SELLER */
-.bestseller {
+.bestseller-content{
     width: 60%; 
     display: flex; 
     flex-direction: column;
     
 }
 
-.bestseller h1 {
+.bestseller-title h1 {
     color: teal;
     margin-bottom: 20px;
     font-size: 24px;
